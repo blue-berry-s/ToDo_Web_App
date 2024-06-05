@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Importing fonts from Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +18,15 @@
 
     </head>
     <body>
-        <H1> Your TODO List </H1>
+        <H1> Your <span id="yellow">TODO</span> List </H1>
         <p> Enter text and click the + button to add it to your list </p>
-        <p> Click on the cirlce to mark the task as complete </p>
+        <p> Click on Tasks to mark them complete </p>
         <p> Click on the X to delete the task</p>
 
+        <div class="input_container">
             <input type="text" placeholder="Eg: To fill in this TODO list">
             <button id="add_task"> + </button>
+        </div>
     
         <ul id="todo_container">
             
