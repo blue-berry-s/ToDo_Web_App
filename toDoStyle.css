@@ -33,7 +33,8 @@ body, button{
     min-height: 30px;
 }
 
-.input_container button{
+#add_task{
+    transition: all 0.5s;
     font-size: 2em;
     padding: 0;
     border-style:none;
